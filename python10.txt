@@ -1,0 +1,2 @@
+world = sortted(list(set(input().split())))
+print(" ".join(world))

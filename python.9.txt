@@ -1,0 +1,8 @@
+def user_input():
+   while True:
+     s = input()
+   if not s:
+         return
+   yeld s
+for line in map(str.upper,user_inout()):
+print(line)
